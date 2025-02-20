@@ -1,0 +1,29 @@
+syntax="proto3";
+
+
+// 自己定义消息类型，微服务实例应用消息类型提供对应处理
+// 自定义枚举值从128开始,1-127供框架内部使用（用户不可使用）
+enum myMsgType{
+	MSG_NO_USE = 0;  // proto3 必须以 0 开始，作为默认值
+	MSG_REQ1=128;
+	MSG_RES1=129;
+	MSG_REQ2=130;
+	MSG_RES2=131;
+	MSG_REQ3=132;
+	MSG_RES3=133;
+};
+
+// 请求消息类型,自己定义
+// 客户端发送给服务器
+message myReqMsg{
+	string client_name=1;
+	bytes text=2;
+};
+
+// 请求恢复消息类型,自己定义
+// 服务器发送给客户端
+message myResMsg{
+	string service_name=1;
+	bytes text=2;
+};
+// 运行 protoc -I=./ --cpp_out=./ mymsg.proto

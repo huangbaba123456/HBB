@@ -1,0 +1,130 @@
+syntax="proto3";	//版本号
+package HBBmsg;		//命名空间 // 这里要改
+import "HBBtype.proto";
+
+//消息头
+message HBBMsgHead
+{
+	//消息内容大小，不包含头
+	int32 msg_size = 1;
+	
+	//消息类型
+	MsgType msg_type = 2;
+
+	//微服务的名称，用于路由
+    string service_name = 3;
+
+
+
+}
+
+//心跳
+message HBBMsgHeart
+{
+	int64 count = 1;
+}
+
+//通用响应 MSG_REGISTER_RES 注册服务响应
+message HBBMessageRes
+{
+	enum HBBReturn
+	{
+		OK = 0;		
+		ERROR = 1;
+	}
+	HBBReturn return = 1;
+	bytes msg = 2;
+}
+
+//MSG_REGISTER_REQ = 5;	//注册服务请求
+message HBBRegisterReq
+{
+	string name = 1;//服务名称
+	int32 port = 2;	//服务端口
+	string ip = 3;	//服务ip
+}
+
+enum HBBServiceType
+{
+	ONE = 0;	//只取一类服务	
+	ALL = 1;	//取全部服务
+}
+message HBBServiceMap
+{
+	message HBBService
+	{
+		string name = 1;
+		string ip = 2;
+		int32 port = 3;
+	}
+	message HBBServiceList
+	{
+		repeated HBBService service = 1;
+	}
+	map<string,HBBServiceList> service_map = 1;
+	HBBMessageRes res = 2;
+
+	HBBServiceType type = 3;
+
+}
+//MSG_GET_SERVICE_REQ = 7;	//发现服务请求
+message HBBGetServiceReq
+{
+	string name = 1;//	服务名称，如果未空，则获取所有服务
+	HBBServiceType type = 2;
+}
+
+
+// 日志水平
+enum HBBLogLevel{
+	XLOG_DEBUG=0;
+	XLOG_INFO=1;
+	XLOG_ERROR=2;
+	XLOG_FATAL=3;
+}
+// 日志消息
+message HBBAddLogReq{
+	string service_ip=1;	// 发送日志的服务ip
+	int32 service_port=2;	// 发送日志的服务端口
+	string service_name=3;	// 发送日志的服务名称
+	bytes log_txt=4;		// 日志的消息
+	int32 log_time=5;		// 日志的时间
+	HBBLogLevel log_level=6;	// 日志的水平
+	string filename=7;		// 文件名
+	int32 line=8;			// 第几行
+}
+
+
+
+///用户登陆请求 MSG_LOGIN_REQ
+message HBBLoginReq
+{
+	string username = 1;	//用户名
+	string password = 2;	//md5后的密码
+}
+
+//服务端响应回复消息 MSG_LOGIN_RES
+message HBBLoginRes
+{
+	enum HBBLoginResType
+	{
+		NONE = 0;	//未处理	
+		LOGGING  = 1; //登录中
+		OK = 2;		//登陆成功
+		ERROR=3;	//用户名密码错误
+		NOUSER=4;	//用户不存在
+		SERVER_ERROR = 5;//	服务端连接错误
+	}
+
+	HBBLoginResType res = 1;
+
+	//登陆成功返回令牌，失败未空
+	string token = 2;
+	
+	//token 超时时间戳
+	int32 expired_time = 3;
+
+	string rolename = 4;
+
+	string username = 5;
+}
