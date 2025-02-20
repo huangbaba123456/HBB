@@ -1,0 +1,116 @@
+<svg width="657" viewBox="0 0 657 515" height="515" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <defs/>
+    <g transform="translate(-149.7,-199)">
+        <g transform="translate(208,478)" id="shape1">
+            <path d="M87,82C93.6,82,99,76.6,99,70L99,12C99,5.4,93.6,0,87,0L12,0C5.4,0,0,5.4,0,12L0,70C0,76.6,5.4,82,12,82L87,82z" fill="#7cc2f2" fill-opacity="0.46" fill-rule="evenodd" stroke="#323232"/>
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="45.1" x="29.1">客户端</tspan>
+            </text>
+        </g>
+        <g transform="translate(437.5,472.5)" id="shape2">
+            <path d="M0,49.3C0,22.1,22.1,0,49.3,0C76.4,0,98.5,22.1,98.5,49.3C98.5,76.4,76.4,98.5,49.3,98.5C22.1,98.5,0,76.4,0,49.3z" fill="#bf83ff" fill-opacity="0.5" fill-rule="evenodd" stroke="#323232"/>
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="53.4" x="22.1">路由中心</tspan>
+            </text>
+        </g>
+        <g transform="translate(706.5,321)" id="shape3">
+            <path d="M87,82C93.6,82,99,76.6,99,70L99,12C99,5.4,93.6,0,87,0L12,0C5.4,0,0,5.4,0,12L0,70C0,76.6,5.4,82,12,82L87,82z" fill="#aada8f" fill-opacity="0.5" fill-rule="evenodd" stroke="#323232"/>
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="45.1" x="18.3">服务模块1</tspan>
+            </text>
+        </g>
+        <g transform="translate(706.5,454)" id="shape4">
+            <path d="M87,82C93.6,82,99,76.6,99,70L99,12C99,5.4,93.6,0,87,0L12,0C5.4,0,0,5.4,0,12L0,70C0,76.6,5.4,82,12,82L87,82z" fill="#bfe2ad" fill-opacity="0.5" fill-rule="evenodd" stroke="#323232"/>
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="45.1" x="18.3">服务模块1</tspan>
+            </text>
+        </g>
+        <g transform="translate(706.5,587)" id="shape5">
+            <path d="M87,82C93.6,82,99,76.6,99,70L99,12C99,5.4,93.6,0,87,0L12,0C5.4,0,0,5.4,0,12L0,70C0,76.6,5.4,82,12,82L87,82z" fill="#bfe2ad" fill-opacity="0.5" fill-rule="evenodd" stroke="#323232"/>
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="45.1" x="18.3">服务模块1</tspan>
+            </text>
+        </g>
+        <g transform="translate(307,497.42)" id="shape6">
+            <path d="M0,0L98.5,0L98.5,-0L127.1,-0" stroke-width="3" fill="none" stroke="#7cc2f2"/>
+            <path d="M127.1,-4.9L136.9,-0L127.1,4.9L127.1,-4.9" stroke-width="1" fill="#7cc2f2" stroke="#7cc2f2" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(312.25,442)" id="shape7">
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="44.1" x="5.6">消息发送给服务器</tspan>
+            </text>
+        </g>
+        <g transform="translate(579,563)" id="shape8">
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="44.1" x="32.8">消息转发</tspan>
+            </text>
+        </g>
+        <g transform="translate(445.75,321)" id="shape9">
+            <path d="M0,41C0,18.4,18.4,0,41,0C63.6,0,82,18.4,82,41C82,63.6,63.6,82,41,82C18.4,82,0,63.6,0,41z" fill="#fdff85" fill-opacity="0.74" fill-rule="evenodd" stroke="#323232"/>
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="45.1" x="13.8">注册中心</tspan>
+            </text>
+        </g>
+        <g transform="translate(706.5,362)" id="shape10">
+            <path d="M0,0L-169,0" stroke-width="3" fill="none" stroke="#df7746"/>
+            <path d="M-169,4.9L-178.8,0L-169,-4.9L-169,4.9" stroke-width="1" fill="#df7746" stroke="#df7746" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(557.13,289)" id="shape11">
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="34.6" x="5.6">服务模块注册自己</tspan>
+                <tspan y="53" x="9.6">的服务名,ip,port</tspan>
+            </text>
+        </g>
+        <g transform="translate(486.75,472.5)" id="shape12">
+            <path d="M0,0L0,-63.5" fill="none" stroke="#191919"/>
+            <path d="M-3,-63.5L0,-69.5L3,-63.5L-3,-63.5" stroke-width="1" fill="#191919" stroke="#191919" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(390,402)" id="shape13">
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="44.1" x="26">请求路由表</tspan>
+            </text>
+        </g>
+        <g transform="translate(312.25,525)" id="shape14">
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="44.1" x="32.8">消息转发</tspan>
+            </text>
+        </g>
+        <g transform="translate(706.5,652.05)" id="shape15">
+            <path d="M0,0L-219.8,0L-219.8,-71.3" stroke-width="3" fill="none" stroke="#42c181"/>
+            <path d="M-224.6,-71.3L-219.8,-81.1L-214.9,-71.3L-224.6,-71.3" stroke-width="1" fill="#42c181" stroke="#42c181" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(523,633)" id="shape16">
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="44.1" x="5.6">消息发送给客户端</tspan>
+            </text>
+        </g>
+        <g transform="translate(536,521.75)" id="shape17">
+            <path d="M0,0L69.3,0L69.3,106.3L160.7,106.3" stroke-width="3" fill="none" stroke="#7cc2f2"/>
+            <path d="M160.7,101.4L170.5,106.3L160.7,111.1L160.7,101.4" stroke-width="1" fill="#7cc2f2" stroke="#7cc2f2" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(706.5,495)" id="shape18">
+            <path d="M0,0L-35.5,0L-35.5,-110.9L-175.4,-110.9" stroke-width="3" fill="none" stroke="#df7746"/>
+            <path d="M-175.4,-106L-185.2,-110.9L-175.4,-115.8L-175.4,-106" stroke-width="1" fill="#df7746" stroke="#df7746" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(756,587)" id="shape19">
+            <path d="M0,0L0,-39L-113,-39L-113,-152L-243.2,-152L-243.2,-183.6" stroke-width="3" fill="none" stroke="#df7746"/>
+            <path d="M-248.1,-183.6L-243.2,-193.4L-238.3,-183.6L-248.1,-183.6" stroke-width="1" fill="#df7746" stroke="#df7746" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(441.37,540.93)" id="shape20">
+            <path d="M0,0L-124.6,0" stroke-width="3" fill="none" stroke="#42c181"/>
+            <path d="M-124.6,4.9L-134.4,0L-124.6,-4.9L-124.6,4.9" stroke-width="1" fill="#42c181" stroke="#42c181" stroke-linecap="round"/>
+        </g>
+        <g transform="translate(216.5,265)" id="shape21">
+            <path d="M0,41C0,18.4,18.4,0,41,0C63.6,0,82,18.4,82,41C82,63.6,63.6,82,41,82C18.4,82,0,63.6,0,41z" fill="#fda98d" fill-opacity="0.58" fill-rule="evenodd" stroke="#323232"/>
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="45.1" x="13.8">日志中心</tspan>
+            </text>
+        </g>
+        <g transform="translate(150.7,200)" id="shape22">
+            <text xml:space="preserve" style="fill:#191919;font-family:微软雅黑;font-size:10pt">
+                <tspan y="40.6" x="12.3">与所有启动日志服务的模块建立连</tspan>
+                <tspan y="59" x="25.9">接，收集日志存储进数据库中</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
